@@ -1,0 +1,13 @@
+debug: true
+spring:
+  jpa:
+    hibernate:
+      implicit_naming_strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl
+  datasource:
+    url: jdbc:mysql://localhost:3307/madcamp
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+# 나머지 설정들...

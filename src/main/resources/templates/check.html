@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div class="container">
+  <form action="/check" method="post">
+    <div class="form-group">
+      <label for="name">이름</label>
+      <input type="text" id="name" name="name" placeholder="이름을 입력하세요">
+      <br>
+      <label for="KAISTId">KAIST 학번</label>
+      <input type="text" id="KAISTId" name="KAISTId" placeholder="KAIST 학번을 입력하세요">
+    </div>
+    <button type="submit">몰입캠프 참가 여부 확인</button>
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"></html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <form action="/join" method="post">
+        <div class="form-group">
+            <label for="userId">사용할 ID</label>
+            <input type="text" id="userId" name="userId" placeholder="사용할 ID">
+            <br>
+            <label for="password">사용할 비밀번호</label>
+            <input type="text" id="password" name="password" placeholder="사용할 비밀번호">
+            <br>
+            <label for="userName">이름</label>
+            <input type="text" id="userName" name="userName" placeholder="이름">
+            <br>
+            <label for="school">학교</label>
+            <input type="text" id="school" name="school" placeholder="출신 대학교">
+            <br>
+            <label for="studentId">KAIST 학번</label>
+            <input type="text" id="studentId" name="studentId" placeholder="KAIST에서 부여받은 학번">
+            <br>
+            <label for="groupNum">분반</label>
+            <input type="text" id="groupNum" name="groupNum" placeholder="분반">
+            <br>
+            <label for="githubAcct">Github 주소</label>
+            <input type="text" id="githubAcct" name="githubAcct" placeholder="Github 계정">
+        </div>
+        <button type="submit">회원 가입</button>
+    </form>
+</div>
+</body>
+</html>
